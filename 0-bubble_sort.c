@@ -1,11 +1,12 @@
 #include "sort.h"
 
 /**
- * bubble_sort - c function that uses uses the Buble sort method in an array
- * @array: array of integers to sort
- * @size: the size of the array to be sorted
- * Return: Sorted array
- */
+* bubble_sort - c function that uses uses the Buble sort method in an array
+* @array: array of integers to sort
+* @size: the size of the array to be sorted
+* Return: Sorted array
+*/
+
 void bubble_sort(int *array, size_t size)
 {
 size_t n = size;
